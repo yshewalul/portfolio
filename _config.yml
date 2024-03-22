@@ -1,6 +1,6 @@
 # Site settings
-title: "Jekyll Resume Template"
-description: "A resume template for Jekyll and GitHub Pages sites."
+title: "Yohannes W. Shewalul"
+description: "A resume for Yohannes W. Shewalul."
 
 # Build settings
 markdown: kramdown
@@ -10,20 +10,25 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Lisa M. Simpson"
-resume_title:                   "VP of Global Communications"
+resume_name:                    "Yohannes W. Shewalul"
+resume_title:                   "PhD Candidate in Structural Fire Engineering"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "lisasimpson@youremailaddress.com"
+resume_contact_email:           "yshewalul@sun.ac.za"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "555-7334"
-resume_contact_address:         "742 Evergreen Terrace, Springfield"
+resume_contact_telephone:       "+27727065780"
+resume_contact_address:         "Stellenbosch, South Africa"
 
-resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
+resume_header_contact_info:     "Stellenbosch • +27727065780 • yshewalul@sun.ac.za"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
+resume_header_intro: "<p>Dedicated and results-oriented PhD candidate in Structural Fire Engineering. SFPE Foundation Student
+Research Grant 2021 recipient. Expertise in interdisciplinary knowledge in fire safety engineering, structural
+fire engineering, material characterization, and sustainable construction practices. Proficient in code
+compliance (NFPA) and advanced CFD fire, drafting, and thermo-mechanical modelling tools. Skilled in fire
+dynamics, performance-based design, and fire risk analysis, with excellent problem-solving and
+communication skills. Ready to contribute to innovative fire protection solutions.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -45,14 +50,14 @@ resume_section_associations:    true
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/jglovier/resume-template"
-  resume_twitter_url:           "http://twitter.com/jglovier"
-  resume_dribbble_url:          "https://dribbble.com/jag"
+  resume_github_url:            "https://github.com/jyshewalul/portfolio/"
+  resume_twitter_url:           "http://twitter.com/yohannes_ws"
+  #resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
+  resume_linkedin_url:          "https://www.linkedin.com/in/yshewalul/"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "http://joelglovier.com"
-  resume_medium_url:            "https://medium.com/@jglovier"
+  #resume_website_url:           "http://joelglovier.com"
+  #resume_medium_url:            "https://medium.com/@jglovier"
 resume_print_social_links:      true
 
 # Design settings
