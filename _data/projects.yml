@@ -2,16 +2,16 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # 
-- project: Fire Testing of Resilient and Sustainable Building Materials (Co-PI with Prof R. Walls, Dr N. F. Quiroz)
+- project: Fire Testing of Resilient and Sustainable Building Materials 
   role: SFPE Foundation Research Grant
   duration: 2023 &mdash; Present
   url: "https://www.sfpe.org/foundation/foundationresearch/foundationresearch-ongoing"
   description: The project's objectives are to identify the sustainable building materials used in construction, 
-                the fire testing methods used for those materials, and potential fire risks that are not addressed in existing testing methods with further experimental fire testing.
+                the fire testing methods used for those materials, and potential fire risks that are not addressed in existing testing methods with further experimental fire testing. I am working as Co-PI with Prof R. Walls, Dr N. F. Quiroz.
 
 # 
-- project: Springfield Community Outreach Group
+- project: Investigating Mechanical Properties of Concrete Using Different Sources of Water for Mixing and Curing
   role: The Institution of Structural Engineers MSc Research Grant
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+  duration: 2022 &mdash; 2023
+  url: "https://www.istructe.org/resources/report/experimental-investigation-of-mechanical-propertie/"
+  description: The primary aim of the project is to find a potential replacement for potable water for concrete production taking in to consideration the fact that the item is scarce.
