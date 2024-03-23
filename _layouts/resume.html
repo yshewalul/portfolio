@@ -108,7 +108,7 @@
           <ol class="resume-item-list">
             {% for publication in site.data.publications %}
             <li>
-              {{ publication.authors }}. ({{ publication.date }}). {{ publication.title }}. <em>{{ publication.journal }}</em>
+              {{ publication.authors }} ({{ publication.date }}). {{ publication.title }}. <em>{{ publication.journal }}</em>.
               {% if publication.doi %}
               <a href="https://doi.org/{{ publication.doi }}" target="_blank">{{ publication.doi }}</a>
               {% endif %}
