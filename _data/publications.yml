@@ -1,0 +1,12 @@
+# links
+- title: Title of Publication 1
+  authors: John Doe, Jane Smith
+  journal: Journal of XYZ
+  date: January 2024
+  doi: "10.1234/xyz"
+
+- title: Title of Publication 2
+  authors: John Doe, Jane Smith
+  journal: Conference on ABC
+  date: March 2023
+  doi: "10.5678/abc"

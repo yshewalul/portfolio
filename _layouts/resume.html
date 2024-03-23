@@ -96,6 +96,36 @@
       <!-- end Interests -->
       {% endif %}
 
+      {% if site.resume_section_publications %}
+      <!-- begin Publications -->
+      <section class="content-section">
+      
+        <header class="section-header">
+          <h2>Publications</h2>
+        </header>
+      
+        <div class="resume-item">
+          <ul class="resume-item-list">
+            {% for publication in site.data.publications %}
+            <li>
+              <h3>{{ publication.title }}</h3>
+              <p>Authors: {{ publication.authors }}</p>
+              <p>Journal/Conference: {{ publication.journal }}</p>
+              <p>Date: {{ publication.date }}</p>
+              {% if publication.doi %}
+              <p>DOI: <a href="https://doi.org/{{ publication.doi }}" target="_blank">{{ publication.doi }}</a></p>
+              {% endif %}
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      
+      </section>
+      <!-- end Publications -->
+      {% endif %}
+      
+
+
 
       {% if site.resume_section_recognition %}
       <!-- begin Recognition -->
@@ -242,7 +272,7 @@
       <!-- end Links -->
       {% endif %}
 
-      
+
       {% if site.resume_print_social_links %}
       <!-- begin Print Social Links -->
       <section class="content-section print-only">
