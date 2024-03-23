@@ -1,16 +1,17 @@
 # Skills
 # 
 - skill: Risk Assessment and Analysis
-  description: 
+  description: CFAST, FDS
 #
-- skill: Performance-Based Design
-  description: 
+- skill: Performance-Based Fire Design
+  description: FDS, ETABS 
 # 
-- skill: NFPA codes
-  description: 
+- skill: Fire Code Compliance
+  description: NFPA, IBC, IFC, ISO, EN, UL
 
 - skill: Fire Modeling and Simulation
-  description: 
+  description: FDS, PyroSim, Pathfinder, Thermo-mechanical modelling, Heat Transfer
 
 - skill: Structural Fire Protection
-  description: 
+  description: Abaqus, OpenSEES, AutoCAD, REVIT, Typescript, Python, MATLAB
+
