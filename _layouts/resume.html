@@ -105,27 +105,22 @@
         </header>
       
         <div class="resume-item">
-          <ul class="resume-item-list">
+          <ol class="resume-item-list">
             {% for publication in site.data.publications %}
             <li>
-              <h3>{{ publication.title }}</h3>
-              <p>Authors: {{ publication.authors }}</p>
-              <p>Journal/Conference: {{ publication.journal }}</p>
-              <p>Date: {{ publication.date }}</p>
+              {{ publication.authors }}. ({{ publication.date }}). {{ publication.title }}. <em>{{ publication.journal }}</em>
               {% if publication.doi %}
-              <p>DOI: <a href="https://doi.org/{{ publication.doi }}" target="_blank">{{ publication.doi }}</a></p>
+              <a href="https://doi.org/{{ publication.doi }}" target="_blank">{{ publication.doi }}</a>
               {% endif %}
             </li>
             {% endfor %}
-          </ul>
+          </ol>
         </div>
       
       </section>
       <!-- end Publications -->
       {% endif %}
-      
-
-
+         
 
       {% if site.resume_section_recognition %}
       <!-- begin Recognition -->
