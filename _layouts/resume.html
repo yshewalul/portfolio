@@ -95,13 +95,13 @@
       </section>
       <!-- end Interests -->
       {% endif %}
-
+         
       {% if site.resume_section_publications %}
       <!-- begin Publications -->
       <section class="content-section">
       
         <header class="section-header">
-          <h2>Publications</h2>
+          <h2>Conferences</h2>
         </header>
       
         <div class="resume-item">
@@ -120,7 +120,33 @@
       </section>
       <!-- end Publications -->
       {% endif %}
-         
+
+
+      {% if site.resume_section_publications %}
+      <!-- begin Conferences -->
+      <section class="content-section">
+      
+        <header class="section-header">
+          <h2>Publications</h2>
+        </header>
+      
+        <div class="resume-item">
+          <ol class="resume-item-list">
+            {% for conference in site.data.conferences %}
+            <li>
+              {{ conference.authors }}, {{ conference.title }}, <em>{{ conference.name }}</em>, ({{ conference.date }}), {{ conference.City }}.
+              {% if publication.doi %}
+              <a href="https://doi.org/{{ conference.doi }}" target="_blank">{{ conference.doi }}</a>
+              {% endif %}
+            </li>
+            {% endfor %}
+          </ol>
+        </div>
+      
+      </section>
+      <!-- end Conferences -->
+      {% endif %}
+
 
       {% if site.resume_section_recognition %}
       <!-- begin Recognition -->
