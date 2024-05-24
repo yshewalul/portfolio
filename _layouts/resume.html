@@ -272,6 +272,31 @@
       <!-- end Associations -->
       {% endif %}
 
+      </section>
+      <!-- end Associations -->
+      {% endif %}
+
+
+      {% if site.resume_section_links %}
+      <!-- begin Presentations -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Invited Presentations</h2>
+        </header>
+
+        <div class="resume-item">
+          <ul class="resume-item-list">
+            {% for presentation in site.data.presentations %}
+            <li><a href={{ link.url }} itemprop="url">{{ link.description }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+
+      </section>
+      <!-- end Presentations -->
+      {% endif %}
+      
 
       {% if site.resume_section_links %}
       <!-- begin Links -->
@@ -292,8 +317,7 @@
       </section>
       <!-- end Links -->
       {% endif %}
-
-
+      
       {% if site.resume_section_references %}
       <!-- begin References -->
       <section class="content-section">
