@@ -275,23 +275,28 @@
 
 
       {% if site.resume_section_presentations %}
-      <!-- begin Presentations -->
+      <!-- begin Invited Presentations -->
       <section class="content-section">
-
+      
         <header class="section-header">
           <h2>Invited Presentations</h2>
         </header>
-
+      
         <div class="resume-item">
           <ul class="resume-item-list">
             {% for presentation in site.data.presentations %}
-            <li><a href={{ presentation.url }} itemprop="url">{{ presentation.description }}</a></li>
+            <li>
+              <strong>{{ presentation.title }}</strong><br>
+              <em>{{ presentation.event }}</em><br>
+              <span>{{ presentation.date }}</span><br>
+              <a href={{ presentation.url }} itemprop="url">{{ presentation.link_text }}</a>
+            </li>
             {% endfor %}
           </ul>
         </div>
-
+      
       </section>
-      <!-- end Presentations -->
+      <!-- end Invited Presentations -->
       {% endif %}
       
 
