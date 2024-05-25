@@ -1,15 +1,8 @@
-presentations:
-  - title: "SFPE Research in Fire Engineering: New Research in Structures - Design Workflows and Green Materials."
-    event: "Event Name 1"
-    date: "Date 1"
-    url: "https://www.pathlms.com/sfpe/courses/64565/webinars/42369"
-    link_text: "Link Text 1"
-  - title: "Title of Presentation 2"
-    event: "Event Name 2"
-    date: "Date 2"
-    url: "http://link-to-presentation-2.com"
-    link_text: "Link Text 2"
-
+#presentations:
+- title: "New Research in Structures - Design Workflows and Green Materials."
+  event: "SFPE Research in Fire Engineering"
+  date: "2024"
+  url: "https://www.pathlms.com/sfpe/courses/64565/webinars/42369"
 
 
 
