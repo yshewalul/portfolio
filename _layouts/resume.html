@@ -288,8 +288,8 @@
             <li>
               <strong>{{ presentation.title }}</strong><br>
               <em>{{ presentation.event }}</em><br>
-              <span>{{ presentation.date }}</span><br>
-              <a href={{ presentation.url }} itemprop="url">{{ presentation.link_text }}</a>
+              {{ presentation.date }}<br>
+              <a href="{{ presentation.url }}" itemprop="url">View Presentation</a>
             </li>
             {% endfor %}
           </ul>
