@@ -10,7 +10,7 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Yohannes W. Shewalul"
+resume_name:                    "Yohannes W. Shewalul, PhD"
 resume_title:                   "Fire Protection Engineer"
 
 # used for the contact button in _layouts/resume.html
@@ -23,11 +23,10 @@ resume_contact_email:           "shewalul.yohannes@gmail.com"
 resume_header_contact_info:     "shewalul.yohannes@gmail.com • https://www.linkedin.com/in/yshewalul/"
 display_header_contact_info:    "true"
 
-resume_header_intro: "<p>Dedicated and results-oriented PhD candidate in Structural Fire Engineering. SFPE Foundation Student
-Research Grant 2021 recipient. Expertise in interdisciplinary knowledge in fire safety engineering, structural
-fire engineering, material characterization, and sustainable construction practices. Proficient in code
-compliance (NFPA) and advanced CFD fire, drafting, and thermo-mechanical modelling tools. Skilled in fire
-dynamics, performance-based design, and fire risk analysis, with excellent problem-solving and
+resume_header_intro: "<p> Dedicated and results-oriented fire protection engineer. SFPE Foundation Student 
+Research Grant 2021 recipient. Expertise in interdisciplinary knowledge in fire protection engineering, structural
+fire engineering, explosions, and fire risk assessment. Proficient in code
+compliance (NFPA) and advanced CFD fire, drafting, and thermo-mechanical modeling tools. Skilled in performance-based design, with excellent problem-solving and
 communication skills. Ready to contribute to innovative fire protection solutions.</p>"
 
 # use "yes" to display the email contact button,
