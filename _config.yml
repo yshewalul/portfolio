@@ -11,16 +11,16 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Yohannes W. Shewalul"
-resume_title:                   "PhD Candidate in Structural Fire Engineering"
+resume_title:                   "Fire Protection Engineer"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "yshewalul@sun.ac.za"
+resume_contact_email:           "shewalul.yohannes@gmail.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "+27727065780"
-resume_contact_address:         "Stellenbosch, South Africa"
+#resume_contact_telephone:       "+27727065780"
+#resume_contact_address:         "Stellenbosch, South Africa"
 
-resume_header_contact_info:     "Stellenbosch • +27727065780 • yshewalul@sun.ac.za"
+resume_header_contact_info:     "shewalul.yohannes@gmail.com • https://www.linkedin.com/in/yshewalul/"
 display_header_contact_info:    "true"
 
 resume_header_intro: "<p>Dedicated and results-oriented PhD candidate in Structural Fire Engineering. SFPE Foundation Student
